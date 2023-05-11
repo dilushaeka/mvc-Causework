@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="627.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.icet.burgerShop.controller.ViewOrdersController">
+   <children>
+      <Label layoutX="36.0" layoutY="32.0" prefHeight="65.0" prefWidth="674.0" style="-fx-background-color: #95dff5;" text="                                        View Orders">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCancel" layoutX="550.0" layoutY="549.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="31.0" prefWidth="120.0" text="Cancel" />
+      <Button fx:id="btnViewAllOrder" layoutX="172.0" layoutY="214.0" mnemonicParsing="false" onAction="#ViewAllOrderOnAction" prefHeight="50.0" prefWidth="378.0" text="View All Orders" />
+      <Button fx:id="btnViewAllCustomer" layoutX="172.0" layoutY="328.0" mnemonicParsing="false" onAction="#viewAllCustomerOnAction" prefHeight="50.0" prefWidth="378.0" text="View All customers" />
+      <Button fx:id="btnViewOrder" layoutX="172.0" layoutY="441.0" mnemonicParsing="false" onAction="#viewOrderOnAction" prefHeight="50.0" prefWidth="378.0" text="View Order" />
+   </children>
+</AnchorPane>
